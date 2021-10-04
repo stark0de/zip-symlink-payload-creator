@@ -9,6 +9,6 @@ ZIP symlink payload generator
 optional arguments:
   -h, --help            show this help message and exit
   -f FILE, --file FILE  Creates the ZIP payloads based on a wordlist
-  -g GET, --get GET     Introduce the link filename to get the file to whichit corresponds
+  -g GET, --get GET     Introduce the link filename to get the file to which it corresponds
   
 ```
