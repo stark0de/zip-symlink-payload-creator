@@ -8,7 +8,7 @@ def main():
         description='ZIP symlink payload generator'
     )
     parser.add_argument('-f', '--file', type=str, required=True,help="Creates the ZIP payloads based on a wordlist")
-    parser.add_argument('-g', '--get', type=str,help="Introduce the link filename to get the file to whichit corresponds")
+    parser.add_argument('-g', '--get', type=str,help="Introduce the link filename to get the file to which it corresponds")
     args = parser.parse_args()
     if args.get is not None:
        path=open(args.file,"r").readlines()
