@@ -11,4 +11,15 @@ optional arguments:
   -f FILE, --file FILE  Creates the ZIP payloads based on a wordlist
   -g GET, --get GET     Introduce the link filename to get the file to which it corresponds
   
+Examples:
+
+python3 zip-symlink.py -f wordlist
+
+[+] Payloads have been created
+--------------------------------------------------
+
+python3 zip-symlink.py -f wordlist -g link6
+
+The file is: /etc/mysql/my.cnf
+  
 ```
